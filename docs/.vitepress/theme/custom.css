@@ -1,0 +1,23 @@
+:root {
+  --vp-c-brand: #646cff;
+  --vp-c-brand-light: #747bff;
+  --vp-c-brand-lighter: #9499ff;
+  --vp-c-brand-dark: #535bf2;
+  --vp-c-brand-darker: #454ce1;
+}
+
+.dark {
+  --vp-c-bg: #242424;
+  --vp-c-bg-soft: #2f2f2f;
+  --vp-c-bg-mute: #3a3a3a;
+}
+
+.vp-doc table {
+  width: 100%;
+  margin: 1em 0;
+}
+
+.vp-doc th, .vp-doc td {
+  padding: 8px 12px;
+  border: 1px solid var(--vp-c-divider);
+}
